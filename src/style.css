@@ -1,0 +1,110 @@
+body {
+  background-color: #FBE9D0;
+}
+
+.header-background {
+  background-color: #244855 !important;
+}
+
+.header-colour {
+  color: white !important;
+}
+
+.card-colour {
+  background-color: #FBE9D0;
+}
+
+.source-code-pro {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.navbar .navbar-nav .nav-link.source-code-pro {
+  color: black;
+}
+
+.git-icon-link {
+  color: black;
+  text-decoration: none;
+}
+
+.linkedin-icon-link {
+  text-decoration: none;
+
+}
+
+.btn-colour {
+  background-color: #455B95;
+  color: white;
+}
+
+.test-center {
+  left: 23%;
+}
+
+.lang-img {
+  width: 80px !important;
+  margin: auto;
+  display: block;
+}
+
+img.lang-img {
+  width: auto !important;
+  height: 80px;
+}
+
+
+.form-width {
+  width: 30%;
+}
+
+.resume-button {
+  background-color: #244855 !important;
+
+}
+
+.fade-in {
+  opacity: 0;
+  /* Start with opacity 0 */
+  animation: fadeInAnimation 1s ease-in forwards;
+  /* Animation properties */
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.slide-up {
+  opacity: 0;
+  /* Start with opacity 0 */
+  transform: translateY(100%);
+  animation: slideUpAnimation 1s ease forwards;
+}
+
+@keyframes slideUpAnimation {
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+
+@media (max-width: 767.98px) {
+  .w-custom {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .form-custom {
+    width: 90% !important;
+  }
+}
