@@ -21,7 +21,7 @@ function Skills() {
         <div>
             <h1 className="text-center fw-normal">Skills</h1>
 
-            <p className="slide-up">{infoSkills}</p>
+            <span className="slide-up">{infoSkills}</span>
 
         </div>
     )

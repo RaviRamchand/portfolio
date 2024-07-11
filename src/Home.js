@@ -14,12 +14,12 @@ function Home() {
                 <div className="row">
                     <div className="col my-auto fade-in">
                         <h1 className="text-center">Hello World, I'm Ravi</h1>
-                        <h5 className="text-center pt-4 fw-normal">A Software Development and Network Engineering honours graduate from Sheridan College with experience building console, web, and mobile applications! <i class="bi bi-rocket-takeoff"></i></h5>
+                        <h5 className="text-center pt-4 fw-normal">A Software Development and Network Engineering honours graduate from Sheridan College with experience building console, web, and mobile applications! <i className="bi bi-rocket-takeoff"></i></h5>
 
                         <div className="d-flex justify-content-center gap-4 pt-4">
-                            <h1><a href="https://github.com/RaviRamchand" className="git-icon-link" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a></h1>
+                            <h1><a href="https://github.com/RaviRamchand" className="git-icon-link" target="_blank" rel="noopener noreferrer"><i className="bi bi-github"></i></a></h1>
 
-                            <h1><a href="https://www.linkedin.com/in/ravi-ramchand/" className="linkedin-icon-link" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a></h1>
+                            <h1><a href="https://www.linkedin.com/in/ravi-ramchand/" className="linkedin-icon-link" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></a></h1>
                         </div>
 
                         <div className="d-flex justify-content-center gap-5 pt-5">
@@ -46,12 +46,12 @@ function Home() {
 
                         <div className="fade-in">
                             <h1 className="text-center ">Hello World, I'm Ravi</h1>
-                            <p className="text-center pt-2">A Software Development and Network Engineering honours graduate from Sheridan College with experience building console, web, and mobile applications! <i class="bi bi-rocket-takeoff"></i></p>
+                            <p className="text-center pt-2">A Software Development and Network Engineering honours graduate from Sheridan College with experience building console, web, and mobile applications! <i className="bi bi-rocket-takeoff"></i></p>
 
                             <div className="d-flex justify-content-center gap-4 pt-2">
-                                <h1><a href="https://github.com/RaviRamchand" className="git-icon-link" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a></h1>
+                                <h1><a href="https://github.com/RaviRamchand" className="git-icon-link" target="_blank" rel="noopener noreferrer"><i className="bi bi-github"></i></a></h1>
 
-                                <h1><a href="https://www.linkedin.com/in/ravi-ramchand/" className="linkedin-icon-link" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a></h1>
+                                <h1><a href="https://www.linkedin.com/in/ravi-ramchand/" className="linkedin-icon-link" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></a></h1>
                             </div>
 
                             <div className="d-flex justify-content-center gap-5 pt-3">
