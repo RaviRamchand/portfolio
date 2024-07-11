@@ -43,7 +43,7 @@ function Contact() {
         <div>
             <h1 className="fw-normal text-center">Contact</h1>
 
-            <form className="text-center slide-up" ref={form} onSubmit={handleSubmit}>
+            <form className="text-center fade-in" ref={form} onSubmit={handleSubmit}>
                 {loading && <p style={{color: 'red'}}>Loading Please Wait...</p>}
                 <input type="text" placeholder="Name" name="name" onChange={handleChange} className="border border-black text-center mt-3 form-width form-custom" style={{ padding: "5px" }} />
                 <br />
@@ -62,6 +62,3 @@ function Contact() {
 }
 
 export default Contact
-
-//TODO: Create environment variables for the ids 
-//TODO: Remember to create environment variables for netlify 

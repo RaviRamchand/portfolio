@@ -10,7 +10,7 @@ function Resume() {
     return (
         <div>
             <h1 className="text-center fw-normal">Resume</h1>
-            <div className="container-fluid pt-3 slide-up">
+            <div className="container-fluid pt-3 fade-in">
                 <div className="row">
                     <h4 className="fw-normal">Education</h4>
                     <div className="col-sm-12 col-md-12 col-lg-5 pt-2 text-center">
