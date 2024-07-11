@@ -102,22 +102,14 @@ const info = {
     projs: [
         {
             id: 1,
-            name: "GameStore",
-            img: "gameStore.mp4",
-            demoUrl: "",
-            gitUrl: "https://github.com/RaviRamchand/spring-gamestore/tree/main/demo/src/main/java/ca/ravi/demo",
-            desc: "This game store web application project was developed in Spring Boot and utilises the MVC architecture, Lombok, h2 database with JPA repository, command line runner interface for dummy records insertion, thymeleaf template, and a bit of Bootstrap for designing. Users can add games to the database and display it."
-        },
+            name: "Portfolio V1",
+            img: "portfoliov1.png",
+            demoUrl: "https://raviramchand.github.io/",
+            gitUrl: "https://github.com/RaviRamchand/RaviRamchand.github.io",
+            desc: "The first version of my portfolio website, developed in my second year of college, was created using HTML, CSS, and JavaScript."
+        },        
         {
             id: 2,
-            name: "Pokedex",
-            img: "pokedex.png",
-            demoUrl: "https://ravi-react-pokedex.netlify.app/",
-            gitUrl: "https://github.com/RaviRamchand/react-pokedex",
-            desc: "This Pokedex website was my first project created with React.js. It features responsive design with Bootstrap and retrieves Pokémon information from the PokeAPI based on user-inputted names or IDs."
-        },
-        {
-            id: 3,
             name: "Capstone Project",
             img: "capstone.png",
             demoUrl: "",
@@ -125,13 +117,21 @@ const info = {
             desc: "For our capstone project, my teammate and I created a mobile Unity game aimed at teaching coding in Java through engaging and interactive lessons, games, and quizzes, offering an enjoyable alternative to traditional methods that rely on lessons and documentation. Our project won us the 'Student Experience Award' at the capstone showcase."
         },
         {
+            id: 3,
+            name: "Pokedex",
+            img: "pokedex.png",
+            demoUrl: "https://ravi-react-pokedex.netlify.app/",
+            gitUrl: "https://github.com/RaviRamchand/react-pokedex",
+            desc: "This Pokedex website was my first project created with React.js. It features responsive design with Bootstrap and retrieves Pokémon information from the PokeAPI based on user-inputted names or IDs."
+        },
+        {
             id: 4,
-            name: "Portfolio V1",
-            img: "portfoliov1.png",
-            demoUrl: "https://raviramchand.github.io/",
-            gitUrl: "https://github.com/RaviRamchand/RaviRamchand.github.io",
-            desc: "The first version of my portfolio website, developed in my second year of college, was created using HTML, CSS, and JavaScript."
-        }
+            name: "GameStore",
+            img: "gameStore.mp4",
+            demoUrl: "",
+            gitUrl: "https://github.com/RaviRamchand/spring-gamestore/tree/main/demo/src/main/java/ca/ravi/demo",
+            desc: "This game store web application project was developed in Spring Boot and utilises the MVC architecture, Lombok, h2 database with JPA repository, command line runner interface for dummy records insertion, thymeleaf template, and a bit of Bootstrap for designing. Users can add games to the database and display it."
+        },
     ],
     exp: [
         {
