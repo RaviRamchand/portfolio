@@ -5,6 +5,7 @@ import emailjs from '@emailjs/browser';
 function Contact() {
     const form = useRef();
     const [data, setData] = useState({ name: "", email: "", message: "" });
+    const [loading, setLoading] = useState(false);
 
     function handleChange(event) {
         setData(prevData => {
@@ -16,6 +17,7 @@ function Contact() {
 
     function handleSubmit(event) {
         event.preventDefault();
+        setLoading(true)
         if (data.email === "" || data.name === "" || data.message === "") {
             alert("Please make sure to fill out all fields");
         }
@@ -34,6 +36,7 @@ function Contact() {
                 );
 
         }
+        setLoading(false)
     }
 
     return (
@@ -41,6 +44,7 @@ function Contact() {
             <h1 className="fw-normal text-center">Contact</h1>
 
             <form className="text-center slide-up" ref={form} onSubmit={handleSubmit}>
+                {loading && <p style={{color: 'red'}}>Loading Please Wait...</p>}
                 <input type="text" placeholder="Name" name="name" onChange={handleChange} className="border border-black text-center mt-3 form-width form-custom" style={{ padding: "5px" }} />
                 <br />
                 <br />

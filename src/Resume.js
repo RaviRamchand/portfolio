@@ -50,7 +50,7 @@ function Resume() {
             {exp}
             <br />
             <br />
-            <a className="btn btn-primary fixed-bottom resume-button" href="/RaviRamchandResume.pdf" target="_blank" role="button">View Full Resume</a>
+            <a className="btn btn-primary fixed-bottom resume-button" href="/RaviRamchandResume2024.pdf" target="_blank" role="button">View Full Resume</a>
 
         </div>
     );
